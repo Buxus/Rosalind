@@ -17,7 +17,7 @@ def main():
 
 
 def p(n, k):
-    result = math.factorial(n) / math.factorial(n - k)
+    result = math.factorial(n) // math.factorial(n - k)
     return result
 
 if __name__ == '__main__':
